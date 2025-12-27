@@ -1,108 +1,112 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Deterministic Governance Kernel (DGK)</title>
-  <style>
-    body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#0b0f14;color:#e6e9ef}
-    header{padding:96px 8vw;background:linear-gradient(135deg,#0f172a,#020617)}
-    h1{font-size:56px;margin:0 0 16px}
-    h2{font-size:36px;margin:64px 0 16px}
-    p{font-size:18px;line-height:1.6;color:#c7cbd6}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
-    .card{background:#0f172a;border:1px solid #1f2937;border-radius:14px;padding:24px}
-    .cta{margin-top:40px;padding:18px 28px;border-radius:12px;background:#4f46e5;color:white;font-weight:700;display:inline-block}
-    footer{padding:48px 8vw;border-top:1px solid #1f2937;color:#9aa0b4}
-  </style>
+<meta charset="utf-8">
+<title>Deterministic Governance Kernel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { margin:0; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; background:#0b0d12; color:#e8eaf0; }
+section { max-width:1100px; margin:0 auto; padding:80px 24px; }
+h1,h2,h3 { font-weight:600; letter-spacing:-0.02em; }
+h1 { font-size:3.2rem; }
+h2 { font-size:2.2rem; margin-top:60px; }
+p { font-size:1.15rem; line-height:1.7; color:#cfd3ff; }
+.hero { background:linear-gradient(135deg,#12162a,#0b0d12); text-align:center; }
+.hero p { max-width:760px; margin:24px auto; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:32px; margin-top:48px; }
+.card { background:#151a33; border-radius:14px; padding:32px; }
+footer { text-align:center; padding:60px 20px; color:#7f86d9; font-size:0.9rem; }
+</style>
 </head>
 <body>
-<header>
+
+<section class="hero">
   <h1>Deterministic Governance Kernel</h1>
   <p>
-    The execution layer for systems that cannot afford ambiguity.
-    DGK replaces probabilistic decision surfaces with enforceable, auditable,
-    deterministic governance.
+    A production-grade substrate for systems that must remain auditable, verifiable,
+    and non-ambiguous under scale, adversarial pressure, and regulatory scrutiny.
   </p>
-  <span class="cta">Determinism is the new compliance</span>
-</header>
+</section>
 
-<main style="padding:64px 8vw">
+<section>
   <h2>Why This Is Necessary</h2>
   <p>
-    Modern software stacks rely on probabilistic inference at the point where
-    accountability is required. As systems scale, this creates non-reproducible
-    outcomes, unverifiable decisions, and governance gaps that no policy layer
-    can fix.
+    Modern software is probabilistic by default. Machine learning systems hallucinate,
+    policy engines drift, logs cannot be replayed with certainty, and accountability
+    dissolves under complexity. When systems govern capital, infrastructure, justice,
+    or national security, probability is a liability.
   </p>
+  <p>
+    The Deterministic Governance Kernel replaces inference-based decision paths with
+    invariant-preserving execution. Every state transition is reproducible. Every outcome
+    is explainable. Nothing disappears into statistical noise.
+  </p>
+</section>
 
+<section>
+  <h2>Why Existing Systems Become Obsolete</h2>
   <div class="grid">
     <div class="card">
-      <h3>Non-Reproducibility</h3>
-      <p>Probabilistic systems cannot guarantee identical outcomes under identical conditions.</p>
+      <h3>Probabilistic AI</h3>
+      <p>
+        LLMs cannot guarantee repeatability. Identical inputs do not produce identical
+        outcomes. This breaks auditability, compliance, and legal admissibility.
+      </p>
     </div>
     <div class="card">
-      <h3>Audit Failure</h3>
-      <p>Decisions cannot be replayed, proven, or contested with certainty.</p>
+      <h3>Rule Engines</h3>
+      <p>
+        Static rules fracture under real-world ambiguity. They require constant human
+        intervention and silently accumulate contradictions.
+      </p>
     </div>
     <div class="card">
-      <h3>Regulatory Dead Ends</h3>
-      <p>Compliance regimes assume determinism. AI systems increasingly violate this assumption.</p>
+      <h3>Workflow Orchestration</h3>
+      <p>
+        DAGs coordinate tasks, not truth. They cannot enforce epistemic invariants or
+        preserve paradox without collapse.
+      </p>
     </div>
   </div>
+</section>
 
-  <h2>Why Existing Software Becomes Obsolete</h2>
+<section>
+  <h2>Why Governments Need This</h2>
   <p>
-    Any platform that cannot produce a deterministic execution trace for
-    high-impact decisions will be disqualified from critical infrastructure,
-    finance, defense, healthcare, and governance roles.
+    Law, regulation, and intelligence demand deterministic records. Decisions must be
+    replayable decades later. Evidence chains must survive political turnover and
+    adversarial challenge.
   </p>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Probabilistic Control Planes</h3>
-      <p>Inference-driven orchestration fails under legal and ethical scrutiny.</p>
-    </div>
-    <div class="card">
-      <h3>Post-Hoc Explainability</h3>
-      <p>Explanations after the fact do not satisfy accountability requirements.</p>
-    </div>
-    <div class="card">
-      <h3>Irreversible Risk</h3>
-      <p>When errors cannot be replayed, they cannot be governed.</p>
-    </div>
-  </div>
-
-  <h2>Why Governments and Enterprises Will Require DGK</h2>
   <p>
-    DGK enforces decision invariants at runtime. It does not explain behavior —
-    it constrains it.
+    A deterministic kernel allows governments to deploy advanced automation without
+    surrendering sovereignty, accountability, or constitutional legitimacy.
   </p>
+</section>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Deterministic Execution</h3>
-      <p>Same inputs. Same outputs. Always.</p>
-    </div>
-    <div class="card">
-      <h3>Replayable Decisions</h3>
-      <p>Every action can be reconstructed, audited, and verified.</p>
-    </div>
-    <div class="card">
-      <h3>Enforceable Constraints</h3>
-      <p>Ethics, policy, and law encoded as invariants, not guidelines.</p>
-    </div>
-  </div>
-
-  <h2>The Outcome</h2>
+<section>
+  <h2>Why Enterprises Need This</h2>
   <p>
-    Systems governed by DGK remain admissible in high-trust environments.
-    Systems without it are phased out.
+    Finance, insurance, energy, aerospace, and critical infrastructure cannot rely on
+    black-box cognition. When disputes arise, “the model said so” is not a defense.
   </p>
-</main>
+  <p>
+    Deterministic systems create defensible automation: decisions that can be audited,
+    insured, certified, and legally enforced.
+  </p>
+</section>
+
+<section>
+  <h2>The Competitive Reality</h2>
+  <p>
+    As regulation tightens and AI failures accumulate, organizations will be forced to
+    choose between speed and survivability. Deterministic governance is the only path
+    that preserves both.
+  </p>
+</section>
 
 <footer>
-  Deterministic Governance Kernel · Built for systems that must be right
+  Deterministic Governance Kernel · Built for systems that must never hallucinate
 </footer>
+
 </body>
 </html>
