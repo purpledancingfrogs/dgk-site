@@ -1,151 +1,75 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <title>Deterministic Governance Kernel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="description" content="Governance-as-Physics. Deterministic, pre-execution enforcement of safety, meaning, and causality."/>
-  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <meta charset="utf-8">
+  <title>DGK — Deterministic Governance Kernel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b0e14;color:#e6e8ef}
+    header{padding:96px 24px;text-align:center;background:radial-gradient(1200px 600px at 50% -20%,#1b2340,#0b0e14)}
+    h1{font-size:56px;letter-spacing:-.02em;margin:0 0 12px}
+    h2{font-size:28px;margin:64px 0 12px}
+    p{max-width:900px;margin:0 auto 16px;line-height:1.6;color:#cfd3ff}
+    section{padding:48px 24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+    .card{background:#12182b;border:1px solid #20295a;border-radius:16px;padding:24px}
+    footer{padding:48px 24px;text-align:center;color:#9aa2ff}
+  </style>
 </head>
 <body>
-
-<header class="hero">
-  <nav class="nav">
-    <div class="brand">DGK</div>
-    <div class="links">
-      <a href="#principle">Principle</a>
-      <a href="#architecture">Architecture</a>
-      <a href="#proof">Proof</a>
-      <a href="#comparison">Comparison</a>
-      <a href="#deploy">Deploy</a>
-      <a href="https://github.com/purpledancingfrogs" target="_blank">GitHub</a>
-    </div>
-  </nav>
-
-  <div class="hero-inner">
-    <h1>Governance as Physics</h1>
-    <p>
-      A deterministic governance substrate where unsafe actions are
-      physically impossible to execute.
-    </p>
-    <div class="cta">
-      <a class="btn primary" href="#proof">View Proofs</a>
-      <a class="btn ghost" href="#architecture">Explore Architecture</a>
-    </div>
-  </div>
+<header>
+  <h1>Deterministic Governance Kernel</h1>
+  <p>The control substrate for intelligence, accountability, and governance in a world where verification is instant.</p>
 </header>
 
-<section id="principle" class="section">
-  <h2>First Principle</h2>
-  <p>
-    Modern AI systems apply safety <em>after</em> computation. DGK inverts the stack.
-    Governance precedes execution. If an action cannot be mathematically proven safe
-    within the current kernel state, it cannot occur.
-  </p>
-  <ul class="bullets">
-    <li>Pre-execution control substrate</li>
-    <li>Downward-closed safety invariants</li>
-    <li>Causal binding of time, meaning, and action</li>
-    <li>Paradox-preserving halts</li>
-  </ul>
+<section>
+  <h2>Why This Is Necessary</h2>
+  <p>Verification costs have collapsed. AI, automation, and global coordination expose every opaque decision. Systems built on probability, opacity, and post-hoc explanations cannot survive. Deterministic, auditable execution is now table stakes.</p>
 </section>
 
-<section id="architecture" class="section alt">
-  <h2>System Architecture</h2>
+<section>
+  <h2>The Core Failure of Existing Software</h2>
   <div class="grid">
-    <div class="card">
-      <h3>DGK-Formal-Specs</h3>
-      <p>TLA+ specifications proving safety, liveness, and collusion resistance.</p>
-    </div>
-    <div class="card">
-      <h3>DGK-IES</h3>
-      <p>Deterministic intelligence substrate with surfaced channels and causal tracing.</p>
-    </div>
-    <div class="card">
-      <h3>Channel Surfacing</h3>
-      <p>All signals—timing, memory, contention—are forced into kernel-visible state.</p>
-    </div>
-    <div class="card">
-      <h3>Conjunctive Checks</h3>
-      <p>Joint actions evaluated over the power set of agents.</p>
-    </div>
-    <div class="card">
-      <h3>Proof-Carrying Execution</h3>
-      <p>Execution requires a signed proof bound to the kernel state.</p>
-    </div>
-    <div class="card">
-      <h3>Hardware Attestation</h3>
-      <p>Boot-to-execution integrity anchored to hardware trust.</p>
-    </div>
+    <div class="card"><p>Black-box inference with no invariant guarantees</p></div>
+    <div class="card"><p>No native concept of time, causality, or responsibility</p></div>
+    <div class="card"><p>Compliance layered on after execution</p></div>
+    <div class="card"><p>Human trust substituted for formal verification</p></div>
   </div>
 </section>
 
-<section id="proof" class="section">
-  <h2>Verified Properties</h2>
-  <table class="proof-table">
-    <tr>
-      <th>Property</th>
-      <th>Status</th>
-      <th>Method</th>
-    </tr>
-    <tr>
-      <td>Pre-Execution Safety</td>
-      <td>Proven</td>
-      <td>TLA+ Invariant</td>
-    </tr>
-    <tr>
-      <td>Collusion Resistance</td>
-      <td>Proven (Bounded)</td>
-      <td>TLC Model Checking</td>
-    </tr>
-    <tr>
-      <td>Paradox Preservation</td>
-      <td>Enforced</td>
-      <td>Kernel Halt Semantics</td>
-    </tr>
-    <tr>
-      <td>Causal Traceability</td>
-      <td>Total</td>
-      <td>Proof-Carrying Execution</td>
-    </tr>
-  </table>
-  <pre class="code">
-Safe(∧A, S) ⇒ ∀B ⊆ A : Safe(∧B, S)
-  </pre>
+<section>
+  <h2>Why Other Systems Will Become Obsolete</h2>
+  <p>Ambiguity is now a liability. Regulators demand traceability. Courts require reproducible decision paths. Markets punish unverifiable claims. Software that cannot explain causality — not statistically, but deterministically — becomes unacceptable.</p>
 </section>
 
-<section id="comparison" class="section alt">
-  <h2>Comparison</h2>
-  <table class="proof-table">
-    <tr>
-      <th>System</th>
-      <th>Pre-Execution</th>
-      <th>Deterministic</th>
-      <th>Formal Proof</th>
-      <th>Collusion-Safe</th>
-    </tr>
-    <tr><td>RLHF / Guardrails</td><td>No</td><td>No</td><td>No</td><td>No</td></tr>
-    <tr><td>OPA / Policy Engines</td><td>Partial</td><td>Yes</td><td>Limited</td><td>No</td></tr>
-    <tr><td>seL4</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
-    <tr class="highlight"><td>DGK</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-  </table>
+<section>
+  <h2>What This System Does Differently</h2>
+  <div class="grid">
+    <div class="card"><p>Deterministic execution paths</p></div>
+    <div class="card"><p>Auditable state transitions</p></div>
+    <div class="card"><p>Time-aware reasoning</p></div>
+    <div class="card"><p>Explicit contradiction handling</p></div>
+    <div class="card"><p>Built-in accountability primitives</p></div>
+  </div>
 </section>
 
-<section id="deploy" class="section">
-  <h2>Deployment Model</h2>
-  <ol class="steps">
-    <li>Verify secure boot and kernel integrity</li>
-    <li>Surface all agent and system channels</li>
-    <li>Evaluate joint actions via conjunctive safety</li>
-    <li>Execute only with proof-bound authorization</li>
-  </ol>
+<section>
+  <h2>Why Companies Need This</h2>
+  <p>AI decisions must be justifiable. Liability chains must be traceable. Automation must be controllable. This kernel is the control layer between intent and execution.</p>
 </section>
 
-<footer class="footer">
-  <div>© 2025 Deterministic Governance Kernel</div>
-  <div>Governance is not policy. It is physics.</div>
+<section>
+  <h2>Why Governments Need This</h2>
+  <p>Institutional legitimacy now depends on hostile audit survivability. Deterministic policy execution, transparent provenance, and audit-ready governance are no longer optional.</p>
+</section>
+
+<section>
+  <h2>The Transition Point</h2>
+  <p>We are moving from “trust us, it works” to “show us the invariant.” Everything else is legacy.</p>
+</section>
+
+<footer>
+  <p>DGK — Infrastructure for the post-opacity era.</p>
 </footer>
-
-<script src="assets/js/app.js"></script>
 </body>
 </html>
